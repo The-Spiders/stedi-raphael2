@@ -8,7 +8,7 @@
       }
     },
     "ios": {
-      "bundleIdentifier": ""
+      "bundleIdentifier": "com.ganyoraphael.stediapp"
     },
     "android": {
       "package": "com.ganyoraphael.stediapp"
