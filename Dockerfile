@@ -8,7 +8,7 @@ ENV EXPO_TOKEN $EXPO_TOKEN
 WORKDIR /app
 ENV PATH /app/node_modules/.bion:$PATH
 COPY package.json ./
-COPY package-lock.json ./
+#COPY package-lock.json ./
 RUN npm install
 COPY . ./
 RUN npm run test
